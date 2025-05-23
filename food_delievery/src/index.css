@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+  scroll-behavior: smooth;
+  
+}
+
+:root {
+  /* === Primary Colors === */
+  --color-primary: #58B368;        /* Fresh Avocado Green */
+  --color-secondary: #F4B400;      /* Warm Mustard */
+  --color-accent: #4C3A51;         /* Deep Eggplant */
+
+  /* === Backgrounds === */
+  --bg-main: #F9F9F9;              /* Main App Background */
+  --bg-card: #FFF9F1;              /* Card/Section Background */
+  --bg-overlay: rgba(0, 0, 0, 0.5);/* Modal/Overlay */
+
+  /* === Buttons === */
+  --btn-primary: #58B368;
+  --btn-primary-hover: #3E8E50;
+  --btn-secondary: #F4B400;
+  --btn-disabled: #D9D9D9;
+  --btn-text: #FFFFFF;
+
+  /* === Text Colors === */
+  --text-heading: #4C3A51;
+  --text-subheading: #333333;
+  --text-body: #555555;
+  --text-muted: #888888;
+  --text-link: #F4B400;
+
+  /* === Status Colors === */
+  --color-success: #28A745;
+  --color-warning: #FFC107;
+  --color-error: #A0522D;
+  --color-info: #17A2B8;
+
+  /* === Misc UI Elements === */
+  --star-rating: #FFB400;
+  --badge-color: #B6E2A1;
+  --border-color: #E0E0E0;
+}
+
+body{
+  min-height: 100vh;
+  background-color: 	#F9F9F9;                                      
+  
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+.app{
+  width: 80%;
+  margin: auto;
+
+}
+button{
+ background-color: #58B368;}
+
+
+@keyframes fadein{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+
+}
