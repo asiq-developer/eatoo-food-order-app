@@ -9,7 +9,7 @@ const Placeorder = () => {
   const navigate = useNavigate()
 
   const {getTotalCartAmount,token,food_list,cartItems} = useContext(StoreContext)
-   const url = "http://localhost:4000";
+   const url = "https://eatoo-food-order-app-backend.onrender.com";
   const [data, setData] = useState({
     firstName:"",
     lastName:"",
